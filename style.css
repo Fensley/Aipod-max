@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #f1f1f1;
+}
+.container {
+  border-radius: 10px;
+  background-color: #fff;
+  width: 550px;
+  height: 450px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+img {
+  width: 200px;
+  position: relative;
+  top: 2.6rem;
+}
+.text {
+  padding: 10px;
+  top: -185px;
+  right: -210px;
+  position: relative;
+  width: 300px;
+}
+.free {
+  color: rgb(199, 95, 44);
+}
+button.btn {
+  cursor: pointer;
+  background-color: transparent;
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  border: 0.3px solid gray;
+}
+.btn p {
+  position: relative;
+  right: -30px;
+
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+}
+.last5 {
+  margin-left: 5px;
+}
+.para {
+  background: -webkit-linear-gradient(top, #3c3d3a 50%, #595759 50%);
+  height: 200px;
+}
+.para2 {
+  background: -webkit-linear-gradient(top, #e3544c 50%, #d89f97 50%);
+  height: 200px;
+}
+.price {
+  font-size: 25px;
+}
+.last {
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(1, 119, 237);
+  position: relative;
+  left: -2px;
+  height: 40px;
+  width: 240px;
+}
+.btn:hover {
+  border-color: blue;
+  opacity: 0.9;
+}
+.last:hover {
+  opacity: 0.8;
+}
+.last:active {
+  padding: 3px 4px 3px 6px;
+}
